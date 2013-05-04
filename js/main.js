@@ -1,7 +1,7 @@
 $(function () {
     var gallery = $('#images');
 
-    for (var i = 1; i < 23; i++) {
+    for (var i = 1; i <= 23; i++) {
         var fileName = (100 + i).toString();
         gallery.append('<li><a href="gallery/' + fileName + '.jpg"><img src="gallery/' + fileName + '.jpg" title=""/></a></li>')
     }

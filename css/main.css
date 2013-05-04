@@ -38,7 +38,7 @@ ol li {
 }
 #menu ul {
     margin: 0 auto;
-    width: 700px;
+    width: 720px;
 }
 
 #menu ul li {
@@ -187,7 +187,7 @@ footer .details a, footer .details span {
     min-height: 640px;
 }
 
-#menu ul, #services-offered ul  {
+#menu ul li, #services-offered ul li  {
     list-style: none;
 }
 
@@ -260,7 +260,7 @@ footer .details a, footer .details span {
 }
 
 #services-offered .titles li a {
-    color: #534849;
+    color: #827677;
 }
 
 #services-offered .titles li:hover a , #services-offered .titles li.active a {
@@ -288,6 +288,11 @@ footer .details a, footer .details span {
 
 #services-offered .titles a {
     color: black;
+}
+
+.profile-desc li i {
+    color: blue;
+    font-style: normal;
 }
 
 footer a.uservoice {
