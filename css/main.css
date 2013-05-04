@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    background-color: #f0f0f0;
+    font-family:  MuseoSlab-500, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+ul li {
+    list-style: disc;
+}
+
+ol li {
+    list-style: decimal;
+}
+
+#menu {
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-bottom: 0;
+    background-image: linear-gradient(to bottom,#222,#111);
+    border-color: #252525;
+    background-repeat: repeat-x;
+    background-color: #1b1b1b;
+    height: 35px;
+    text-align: center;
+    z-index: 2000;
+}
+
+#menu li.brand {
+    margin-top: 5px;
+}
+#menu ul {
+    margin: 0 auto;
+    width: 700px;
+}
+
+#menu ul li {
+    margin-top: 8px;
+    margin-right: 25px;
+}
+
+#menu a{
+    color: #9B0;
+}
+
+#menu li.brand {
+    font-size: 20px;
+}
+
+#menu li.brand a {
+    color: #ffffff;
+}
+
+#menu a:hover, #menu .active a {
+    color: #ffffff;
+}
+
+#banner, footer {
+    background: #9d261d;
+    border-bottom: 1px solid #721c15;
+    text-shadow: 2px 2px 2px #333;
+    text-align: center;
+    color: #fff;
+}
+
+#banner {
+    padding: 90px 0 100px;
+}
+
+#banner .icons {
+    display: inline;
+    font-size: 100px;
+    margin-left: -120px;
+
+}
+
+footer {
+    padding: 90px 0 300px;
+}
+
+#banner h1 {
+    font-size: 80px;
+    letter-spacing: -2px;
+    line-height: 1;
+}
+
+#banner .container {
+    margin: 0 auto;
+    width: 800px;
+    height: 150px;
+    overflow: auto
+
+}
+
+#banner .container .name {
+    width: 500px;
+    float: left
+}
+
+footer .container  {
+    margin: 0 auto;
+    width: 500px;
+    text-align: left;
+}
+
+footer .details {
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+footer .details p {
+    margin-bottom: 8px;
+
+}
+footer .details a, footer .details span {
+    color: white;
+    margin-left: 5px;
+
+}
+
+#contact-us {
+    margin-top: 50px;
+    min-height: 100px;
+}
+
+#banner p {
+    clear: both;
+    float: right;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#banner p.caption {
+    margin-top: 5px;
+    color: yellow;
+    font-size: 15px;
+}
+
+#menu li {
+    float: left;
+}
+
+#content {
+    width: 986px;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+#content h1 {
+    margin: 20px 0 20px 0;
+    font-size: 30px;
+    background-color: #333333;
+    line-height: 50px;
+    text-indent: 10px;
+    color: whitesmoke;
+    z-index: 10;
+}
+
+#about-us p, #services-offered .descriptions p {
+    margin-bottom: 10px;
+}
+#content p.name {
+    margin-top: 10px;
+}
+
+#about-us p.first{
+    text-indent: 20px;
+}
+
+#about-us ul {
+    margin-left: 15px;
+}
+
+#about-us li {
+    margin-bottom: 15px;
+}
+
+#content div.page {
+    padding-top: 20px;
+    min-height: 640px;
+}
+
+#menu ul, #services-offered ul  {
+    list-style: none;
+}
+
+.two-panes {
+    margin: 20px 20px 0 0;
+    overflow: auto
+}
+
+.first-pane {
+    float: left
+}
+
+.second-pane {
+    margin-left: 250px;
+    width: 700px;
+}
+
+.profile-pic img {
+    display: block;
+    width:150px;
+}
+
+.profile-desc li {
+    margin-bottom: 10px;
+}
+
+#our-team .profile {
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    border-bottom: 1px dashed;
+}
+
+.profile .name {
+    text-align: center;
+    font-size: 20px;
+}
+
+.profile .grade {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.profile .qualification {
+    margin-top: 5px;
+
+    text-align: center;
+    font-size: 10px;
+}
+
+#services-offered {
+    min-height: 440px;
+}
+
+#services-offered .titles ul {
+    background-color: #cabf56;
+    border-radius: 15px;
+}
+
+#services-offered .titles li {
+    margin-bottom: 10px;
+    width:200px;
+    padding: 5px 0 5px 10px;
+    border-radius: 15px;
+}
+
+#services-offered .titles li.active, #services-offered .titles li:hover {
+    background-color: #d6575a;
+}
+
+#services-offered .titles li a {
+    color: #978a8b;
+}
+
+#services-offered .titles li:hover a , #services-offered .titles li.active a {
+    color: white;
+}
+
+#services-offered h2 {
+    color: #236315;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 1;
+}
+
+#services-offered ol {
+    margin: 10px 0 10px 40px;
+}
+
+#services-offered .descriptions div {
+    display: none;
+}
+
+#services-offered .descriptions div.active {
+    display: block;
+}
+
+#services-offered .titles a {
+    color: black;
+}
+
+footer a.uservoice {
+    text-decoration: underline;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
