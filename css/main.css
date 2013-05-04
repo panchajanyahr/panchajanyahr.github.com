@@ -4,7 +4,11 @@ body {
     line-height: 20px;
     color: #333;
     background-color: #f0f0f0;
-    font-family:  MuseoSlab-500, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family:  sans-serif;
+}
+
+#menu, #banner, h1, #services-offered ul, footer {
+    font-family: MuseoSlab-500, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 ul li {
@@ -239,7 +243,8 @@ footer .details a, footer .details span {
 }
 
 #services-offered .titles ul {
-    background-color: #cabf56;
+    background-color: #bababa;
+    padding: 5px;
     border-radius: 15px;
 }
 
@@ -251,11 +256,11 @@ footer .details a, footer .details span {
 }
 
 #services-offered .titles li.active, #services-offered .titles li:hover {
-    background-color: #d6575a;
+    background-color: #9d261d;
 }
 
 #services-offered .titles li a {
-    color: #978a8b;
+    color: #534849;
 }
 
 #services-offered .titles li:hover a , #services-offered .titles li.active a {
