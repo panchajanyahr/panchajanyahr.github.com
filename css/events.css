@@ -5,7 +5,30 @@
 .section {
     margin-bottom: 20px;
 }
+
 .section-header {
     font-size: 20px;
     margin-bottom: 10px;
+}
+
+.business-card p.name {
+    padding-top: 5px;
+    font-size: 17px;
+}
+
+.business-card p i {
+    margin-right: 5px;
+}
+
+.business-card p {
+    margin-left: 110px;
+    width: 400px;
+}
+.business-card {
+    font-size: 10px;
+}
+
+.business-card img {
+    width: 100px;
+    float: left;
 }
