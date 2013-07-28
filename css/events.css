@@ -32,3 +32,39 @@
     width: 100px;
     float: left;
 }
+
+.highlights ol {
+    margin-left: 20px;
+}
+
+.highlights p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.highlights li {
+    margin-bottom: 5px;
+}
+
+.highlights ul {
+    margin-left: 20px;
+}
+
+.trainer .qualifications {
+    font-size: 12px;
+}
+
+.trainer ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.trainer ul li {
+    margin-bottom: 5px;
+}
+
+.trainer h3 {
+    font-size: 15px;
+    font-weight: bold;
+    display: inline;
+}
