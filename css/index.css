@@ -135,3 +135,7 @@
 #services-offered ul {
     font-family: MuseoSlab-500, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+#events li {
+    list-style: none;
+}
