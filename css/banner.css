@@ -1,0 +1,49 @@
+#banner {
+    padding: 90px 0 100px;
+    background: #9d261d;
+    border-bottom: 1px solid #721c15;
+    text-shadow: 2px 2px 2px #333;
+    text-align: center;
+    color: #fff;
+    font-family: MuseoSlab-500, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#banner .icons {
+    display: inline;
+    font-size: 100px;
+    margin-left: -120px;
+
+}
+
+#banner h1 {
+    font-size: 80px;
+    letter-spacing: -2px;
+    line-height: 1;
+}
+
+#banner .container {
+    margin: 0 auto;
+    width: 800px;
+    height: 150px;
+    overflow: auto
+
+}
+
+#banner .container .name {
+    width: 500px;
+    float: left
+}
+
+#banner p {
+    clear: both;
+    float: right;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#banner p.caption {
+    margin-top: 5px;
+    color: yellow;
+    font-size: 15px;
+}
+

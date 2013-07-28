@@ -1,0 +1,137 @@
+#about-us p, #services-offered .descriptions p {
+    margin-bottom: 10px;
+}
+
+#content p.name {
+    margin-top: 10px;
+}
+
+#about-us p.first{
+    text-indent: 20px;
+}
+
+#about-us ul {
+    margin-left: 15px;
+}
+
+#about-us li {
+    margin-bottom: 15px;
+}
+
+
+#content div.page {
+    padding-top: 20px;
+    min-height: 640px;
+}
+
+#services-offered ul li  {
+    list-style: none;
+}
+
+.two-panes {
+    margin: 20px 20px 0 0;
+    overflow: auto
+}
+
+.first-pane {
+    float: left
+}
+
+.second-pane {
+    margin-left: 250px;
+    width: 700px;
+}
+
+.profile-pic img {
+    display: block;
+    width:150px;
+}
+
+.profile-desc li {
+    margin-bottom: 10px;
+}
+
+#our-team .profile {
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    border-bottom: 1px dashed;
+}
+
+.profile .name {
+    text-align: center;
+    font-size: 20px;
+}
+
+.profile .grade {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.profile .qualification {
+    margin-top: 5px;
+
+    text-align: center;
+    font-size: 10px;
+}
+
+#services-offered {
+    min-height: 440px;
+}
+
+#services-offered .titles ul {
+    background-color: #bababa;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#services-offered .titles li {
+    margin-bottom: 10px;
+    width:200px;
+    padding: 5px 0 5px 10px;
+    border-radius: 15px;
+}
+
+#services-offered .titles li.active, #services-offered .titles li:hover {
+    background-color: #9d261d;
+}
+
+#services-offered .titles li a {
+    color: #827677;
+}
+
+#services-offered .titles li:hover a , #services-offered .titles li.active a {
+    color: white;
+}
+
+#services-offered h2 {
+    color: #236315;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 1;
+}
+
+#services-offered ol {
+    margin: 10px 0 10px 40px;
+}
+
+#services-offered .descriptions div {
+    display: none;
+}
+
+#services-offered .descriptions div.active {
+    display: block;
+}
+
+#services-offered .titles a {
+    color: black;
+}
+
+.profile-desc li i {
+    color: blue;
+    font-style: normal;
+}
+
+#services-offered ul {
+    font-family: MuseoSlab-500, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}

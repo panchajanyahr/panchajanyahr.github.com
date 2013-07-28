@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
 body {
     margin: 0;
     font-size: 14px;
@@ -7,7 +16,7 @@ body {
     font-family:  sans-serif;
 }
 
-#menu, #banner, h1, #services-offered ul, footer {
+h1 {
     font-family: MuseoSlab-500, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -20,6 +29,7 @@ ol li {
 }
 
 #menu {
+    font-family: MuseoSlab-500, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     position: fixed;
     right: 0;
     left: 0;
@@ -62,7 +72,13 @@ ol li {
     color: #ffffff;
 }
 
-#banner, footer {
+#menu li {
+    float: left;
+    list-style: none;
+}
+
+footer {
+    font-family: MuseoSlab-500, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background: #9d261d;
     border-bottom: 1px solid #721c15;
     text-shadow: 2px 2px 2px #333;
@@ -70,38 +86,8 @@ ol li {
     color: #fff;
 }
 
-#banner {
-    padding: 90px 0 100px;
-}
-
-#banner .icons {
-    display: inline;
-    font-size: 100px;
-    margin-left: -120px;
-
-}
-
 footer {
     padding: 90px 0 300px;
-}
-
-#banner h1 {
-    font-size: 80px;
-    letter-spacing: -2px;
-    line-height: 1;
-}
-
-#banner .container {
-    margin: 0 auto;
-    width: 800px;
-    height: 150px;
-    overflow: auto
-
-}
-
-#banner .container .name {
-    width: 500px;
-    float: left
 }
 
 footer .container  {
@@ -125,26 +111,13 @@ footer .details a, footer .details span {
 
 }
 
+footer a.uservoice {
+    text-decoration: underline;
+}
+
 #contact-us {
     margin-top: 50px;
     min-height: 100px;
-}
-
-#banner p {
-    clear: both;
-    float: right;
-    margin-top: 10px;
-    font-size: 20px;
-}
-
-#banner p.caption {
-    margin-top: 5px;
-    color: yellow;
-    font-size: 15px;
-}
-
-#menu li {
-    float: left;
 }
 
 #content {
@@ -163,147 +136,4 @@ footer .details a, footer .details span {
     z-index: 10;
 }
 
-#about-us p, #services-offered .descriptions p {
-    margin-bottom: 10px;
-}
-#content p.name {
-    margin-top: 10px;
-}
 
-#about-us p.first{
-    text-indent: 20px;
-}
-
-#about-us ul {
-    margin-left: 15px;
-}
-
-#about-us li {
-    margin-bottom: 15px;
-}
-
-#content div.page {
-    padding-top: 20px;
-    min-height: 640px;
-}
-
-#menu ul li, #services-offered ul li  {
-    list-style: none;
-}
-
-.two-panes {
-    margin: 20px 20px 0 0;
-    overflow: auto
-}
-
-.first-pane {
-    float: left
-}
-
-.second-pane {
-    margin-left: 250px;
-    width: 700px;
-}
-
-.profile-pic img {
-    display: block;
-    width:150px;
-}
-
-.profile-desc li {
-    margin-bottom: 10px;
-}
-
-#our-team .profile {
-    padding-bottom: 25px;
-    margin-bottom: 50px;
-    border-bottom: 1px dashed;
-}
-
-.profile .name {
-    text-align: center;
-    font-size: 20px;
-}
-
-.profile .grade {
-    margin-top: 10px;
-    text-align: center;
-    font-size: 15px;
-}
-
-.profile .qualification {
-    margin-top: 5px;
-
-    text-align: center;
-    font-size: 10px;
-}
-
-#services-offered {
-    min-height: 440px;
-}
-
-#services-offered .titles ul {
-    background-color: #bababa;
-    padding: 5px;
-    border-radius: 15px;
-}
-
-#services-offered .titles li {
-    margin-bottom: 10px;
-    width:200px;
-    padding: 5px 0 5px 10px;
-    border-radius: 15px;
-}
-
-#services-offered .titles li.active, #services-offered .titles li:hover {
-    background-color: #9d261d;
-}
-
-#services-offered .titles li a {
-    color: #827677;
-}
-
-#services-offered .titles li:hover a , #services-offered .titles li.active a {
-    color: white;
-}
-
-#services-offered h2 {
-    color: #236315;
-    margin-bottom: 20px;
-    font-size: 30px;
-    line-height: 1;
-}
-
-#services-offered ol {
-    margin: 10px 0 10px 40px;
-}
-
-#services-offered .descriptions div {
-    display: none;
-}
-
-#services-offered .descriptions div.active {
-    display: block;
-}
-
-#services-offered .titles a {
-    color: black;
-}
-
-.profile-desc li i {
-    color: blue;
-    font-style: normal;
-}
-
-footer a.uservoice {
-    text-decoration: underline;
-
-}
-* {
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
