@@ -21,7 +21,7 @@
 }
 
 .business-card p {
-    margin-left: 110px;
+    margin-left: 135px;
     width: 400px;
 }
 .business-card {
@@ -50,21 +50,42 @@
     margin-left: 20px;
 }
 
-.trainer .qualifications {
-    font-size: 12px;
-}
-
-.trainer ul {
-    margin-left: 20px;
-    margin-top: 10px;
-}
-
 .trainer ul li {
     margin-bottom: 5px;
 }
 
-.trainer h3 {
+.two-panes {
+    margin: 20px 20px 0 0;
+    overflow: auto
+}
+
+.first-pane {
+    float: left
+}
+
+.second-pane {
+    margin-left: 150px;
+    width: 700px;
+}
+
+.profile-pic img {
+    display: block;
+    width:100px;
+}
+
+.profile-desc li {
+    margin-bottom: 10px;
+}
+
+.profile .name {
+    text-align: center;
     font-size: 15px;
-    font-weight: bold;
-    display: inline;
+    margin-top:5px;
+}
+
+.profile .qualification {
+    margin-top: 5px;
+    width: 100px;
+    text-align: center;
+    font-size: 10px;
 }
